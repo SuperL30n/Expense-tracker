@@ -1,0 +1,13 @@
+.summary {
+  background-color: #f1f5f9;
+  padding: 1rem;
+  border-radius: var(--radius);
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+.summaryItem {
+  flex: 1;
+  text-align: center;
+}

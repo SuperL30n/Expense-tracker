@@ -1,0 +1,41 @@
+.list {
+  list-style: none;
+  padding: 0;
+  margin-top: 1rem;
+}
+.format {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: space-between;
+}
+.format span {
+  display: block;
+}
+p {
+  text-align: center;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.75rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.amount {
+  font-weight: bold;
+}
+
+.removeBtn {
+  background-color: var(--danger);
+  color: white;
+  border: none;
+  padding: 0.5rem 0.75rem;
+  border-radius: var(--radius);
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.removeBtn:hover {
+  background-color: #b91c1c;
+}

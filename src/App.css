@@ -1,0 +1,39 @@
+/* App.css */
+:root {
+  --primary: #4f46e5;
+  --danger: #dc2626;
+  --bg: #f9fafb;
+  --text: #111827;
+  --border: #e5e7eb;
+  --radius: 8px;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--text);
+}
+
+.container {
+  max-width: 90vw;
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem auto;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 1rem;
+  background: white;
+  border-radius: var(--radius);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+h2,
+h1 {
+  text-align: center;
+}
+
+.box {
+  flex: 1 1 calc(33.33% - 2rem); /* leave room for gap */
+  min-width: 280px;
+}
